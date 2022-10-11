@@ -13,7 +13,11 @@ A booking can have 3 statuses:
 - Unconfirmed
 
 A booking always starts with the status "Reserved". 
-A booking with status "Reserved" or status "Confirmed" blocks the availability of the booked room. Bookings with status "Reserved" should be confirmed within 24h. If not, the status of the
-booking becomes "Unconfirmed". Unconfirmed bookings can no longer be confirmed and do no longer block the availability of the room.
+Bookings with status "Reserved" should be confirmed within 24h after creation.
+If so, the booking gets status "Confirmed".
+If not, the status of the booking becomes "Unconfirmed".
+
+A booking with status "Reserved" or status "Confirmed" blocks the availability of the booked room. 
+Unconfirmed bookings can no longer be confirmed and do no longer block the availability of the room.
 
 Users should always be able to get the status of their booking.
