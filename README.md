@@ -1,4 +1,4 @@
-# hotel-kata
+# Hotel Kata
 
 You are running a hotel with rooms that can be booked. All rooms have a number that identify them.
 
